@@ -1,0 +1,114 @@
+<html>
+<body>
+<pre>
+<h1>ﾋﾞﾙﾄﾞのﾛｸﾞ</h1>
+<h3>
+--------------------構成: EasySRT - Win32 Release--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+Creating command line "rc.exe /l 0x411 /fo"Release/EasySRT.res" /d "NDEBUG" /d "_AFXDLL" "F:\project\EasySRT\EasySRT.rc"" 
+一時ﾌｧｲﾙ "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSPCE9.tmp" を作成し、次の内容を記録します
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/EasySRT.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\project\EasySRT\EasySRT.cpp"
+"F:\project\EasySRT\EasySRTDlg.cpp"
+"F:\project\EasySRT\HandleINI.cpp"
+"F:\project\EasySRT\LyricsDialogue.cpp"
+"F:\project\EasySRT\wmpcdrom.cpp"
+"F:\project\EasySRT\wmpcdromcollection.cpp"
+"F:\project\EasySRT\wmpclosedcaption.cpp"
+"F:\project\EasySRT\wmpcontrols.cpp"
+"F:\project\EasySRT\wmpdvd.cpp"
+"F:\project\EasySRT\wmperror.cpp"
+"F:\project\EasySRT\wmperroritem.cpp"
+"F:\project\EasySRT\wmpmedia.cpp"
+"F:\project\EasySRT\wmpmediacollection.cpp"
+"F:\project\EasySRT\wmpnetwork.cpp"
+"F:\project\EasySRT\wmpplayer4.cpp"
+"F:\project\EasySRT\wmpplayerapplication.cpp"
+"F:\project\EasySRT\wmpplaylist.cpp"
+"F:\project\EasySRT\wmpplaylistarray.cpp"
+"F:\project\EasySRT\wmpplaylistcollection.cpp"
+"F:\project\EasySRT\wmpsettings.cpp"
+"F:\project\EasySRT\wmpstringcollection.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSPCE9.tmp" 
+一時ﾌｧｲﾙ "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSPCEA.tmp" を作成し、次の内容を記録します
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/EasySRT.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\project\EasySRT\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSPCEA.tmp" 
+一時ﾌｧｲﾙ "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSPCEB.tmp" を作成し、次の内容を記録します
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/EasySRT.pdb" /machine:I386 /out:"Release/EasySRT.exe" 
+.\Release\EasySRT.obj
+.\Release\EasySRTDlg.obj
+.\Release\HandleINI.obj
+.\Release\LyricsDialogue.obj
+.\Release\StdAfx.obj
+.\Release\wmpcdrom.obj
+.\Release\wmpcdromcollection.obj
+.\Release\wmpclosedcaption.obj
+.\Release\wmpcontrols.obj
+.\Release\wmpdvd.obj
+.\Release\wmperror.obj
+.\Release\wmperroritem.obj
+.\Release\wmpmedia.obj
+.\Release\wmpmediacollection.obj
+.\Release\wmpnetwork.obj
+.\Release\wmpplayer4.obj
+.\Release\wmpplayerapplication.obj
+.\Release\wmpplaylist.obj
+.\Release\wmpplaylistarray.obj
+.\Release\wmpplaylistcollection.obj
+.\Release\wmpsettings.obj
+.\Release\wmpstringcollection.obj
+.\Release\EasySRT.res
+"C:\Program Files\Microsoft Visual Studio\VC98\Lib\WINMM.LIB"
+]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSPCEB.tmp" の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ﾘｿｰｽをｺﾝﾊﾟｲﾙ中...
+ｺﾝﾊﾟｲﾙ中...
+StdAfx.cpp
+ｺﾝﾊﾟｲﾙ中...
+EasySRT.cpp
+EasySRTDlg.cpp
+HandleINI.cpp
+LyricsDialogue.cpp
+F:\project\EasySRT\LyricsDialogue.cpp(84) : warning C4305: '=' : 'const int' から 'char' へ切り詰めます。
+F:\project\EasySRT\LyricsDialogue.cpp(84) : warning C4309: '=' : 定数値が切り捨てられました。
+F:\project\EasySRT\LyricsDialogue.cpp(84) : warning C4305: '=' : 'const int' から 'char' へ切り詰めます。
+F:\project\EasySRT\LyricsDialogue.cpp(84) : warning C4309: '=' : 定数値が切り捨てられました。
+F:\project\EasySRT\LyricsDialogue.cpp(84) : warning C4305: '=' : 'const int' から 'char' へ切り詰めます。
+F:\project\EasySRT\LyricsDialogue.cpp(84) : warning C4309: '=' : 定数値が切り捨てられました。
+wmpcdrom.cpp
+wmpcdromcollection.cpp
+wmpclosedcaption.cpp
+wmpcontrols.cpp
+wmpdvd.cpp
+wmperror.cpp
+wmperroritem.cpp
+wmpmedia.cpp
+wmpmediacollection.cpp
+wmpnetwork.cpp
+wmpplayer4.cpp
+wmpplayerapplication.cpp
+wmpplaylist.cpp
+wmpplaylistarray.cpp
+wmpplaylistcollection.cpp
+wmpsettings.cpp
+ｺｰﾄﾞを生成中...
+ｺﾝﾊﾟｲﾙ中...
+wmpstringcollection.cpp
+ｺｰﾄﾞを生成中...
+ﾘﾝｸ中...
+
+
+
+<h3>結果</h3>
+EasySRT.exe - ｴﾗｰ 0、警告 6
+</pre>
+</body>
+</html>

@@ -1,0 +1,222 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 17, 1\r\n"
+    "#pragma code_page(932)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\EasySRT.rc2""  // Microsoft Visual C++ 以外のツールで編集されたリソース\r\n"
+    "#include ""l.jpn\\afxres.rc""          // 標準のコンポーネント\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\EasySRT.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_EASYSRT_DIALOG DIALOGEX 0, 0, 322, 200
+STYLE WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+EXSTYLE WS_EX_ACCEPTFILES | WS_EX_APPWINDOW
+CAPTION "EasySRT"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    EDITTEXT        IDC_EDIT1,0,35,70,60,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "同期画面...",IDC_BUTTON2,0,20,65,15
+    EDITTEXT        IDC_EDIT2,100,0,40,15,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "",IDC_OCX1,"{6BF52A52-394A-11D3-B153-00C04F79FAA6}",
+                    WS_TABSTOP,140,15,155,145
+END
+
+IDD_LYRICS DIALOG DISCARDABLE  0, 0, 279, 245
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "歌詞同期"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LISTBOX         IDC_LIST1,5,5,185,230,LBS_NOINTEGRALHEIGHT | 
+                    LBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "同期",IDC_BUTTON1,200,100,70,135
+    PUSHBUTTON      "保存",IDC_BUTTON2,205,5,65,20
+    PUSHBUTTON      "１秒もどる",IDC_BUTTON3,205,65,60,20
+    PUSHBUTTON      "カーソルを上に",IDC_BUTTON4,205,45,60,20
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "EasySRT MFC ｱﾌﾟﾘｹｰｼｮﾝ\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "EasySRT\0"
+            VALUE "LegalCopyright", "Copyright (C) 2010\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "EasySRT.EXE\0"
+            VALUE "ProductName", "EasySRT ｱﾌﾟﾘｹｰｼｮﾝ\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_EASYSRT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 315
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    IDD_LYRICS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 238
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_EASYSRT_DIALOG DLGINIT
+BEGIN
+    IDC_OCX1, 0x376, 168, 0
+0x0000, 0x0000, 0x0300, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0005, 
+0x0000, 0x0000, 0x0000, 0x3ff0, 0x0003, 0x0000, 0x0000, 0x0005, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0003, 0x0001, 
+0x0000, 0x000b, 0xffff, 0x0003, 0x0000, 0x0000, 0x000b, 0xffff, 0x0008, 
+0x0002, 0x0000, 0x0000, 0x0003, 0x0032, 0x0000, 0x000b, 0x0000, 0x0008, 
+0x000a, 0x0000, 0x0066, 0x0075, 0x006c, 0x006c, 0x0000, 0x000b, 0x0000, 
+0x000b, 0x0000, 0x000b, 0xffff, 0x000b, 0xffff, 0x000b, 0x0000, 0x0008, 
+0x0002, 0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0008, 0x0002, 
+0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x000b, 0x0000, 0x1c02, 
+0x0000, 0x1688, 0x0000, 
+    0
+END
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE 17, 1
+#pragma code_page(932)
+#endif //_WIN32
+#include "res\EasySRT.rc2"  // Microsoft Visual C++ 以外のツールで編集されたリソース
+#include "l.jpn\afxres.rc"          // 標準のコンポーネント
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
